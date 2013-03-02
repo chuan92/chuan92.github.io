@@ -1,8 +1,19 @@
 ---
 layout: page
-title: Hello NJU
+title:  Welcome 
 tagline: 
 ---
 {% include JB/setup %}
 
-![nju](http://a1.att.hudong.com/07/02/01300001045622129050021410558.jpg  "logo")
+<div class="content">
+<div class="related">
+<ul>
+{% for post in site.posts %}
+<li>
+<span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+</div>
+![nju](http://images.cnblogs.com/cnblogs_com/laixiaoyu/xj.jpg  "logo")

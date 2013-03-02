@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Here I come"
+title: "Hello World"
 description: ""
 category: 
-tags: []
+tags: [随笔]
 ---
 {% include JB/setup %}
-##Hello world!
 >曰遂古之初，谁传道之？
 >上下未形，何由考之？
 C		`printf("hello world");`  
 C++		`cout << "hello world";`   
-Java	`System.out.println("hello world")`  
+Java	`System.out.println("hello world");`  
 Scheme	`(display "hello world");`  
-bash	`echo "hello world";  
+bash	`echo "hello world";`  
+python	`print("hello world");`
