@@ -103,7 +103,7 @@ JB :
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
-      site_id : '100585044' 
+      site_id : '100585801' 
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
 
