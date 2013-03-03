@@ -6,6 +6,7 @@ category:
 tags: [随笔]
 ---
 {% include JB/setup %}
+doubanclaim66a5e5fc40c17bb8
 >曰遂古之初，谁传道之？
 >上下未形，何由考之？
 C		`printf("hello world");`  
