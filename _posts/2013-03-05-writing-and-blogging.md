@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "计算机与写作"
+title: "漫谈计算机与写作"
 description: ""
 category: 
 tags: [随感]
