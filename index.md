@@ -16,4 +16,3 @@ tagline:
 </ul>
 </div>
 </div>
-![nju](http://images.cnblogs.com/cnblogs_com/laixiaoyu/xj.jpg  "logo")
