@@ -8,6 +8,7 @@ tags: [Vim]
 {% include JB/setup %}
 
 vim号称“编辑器之神”，有一个比较陡峭的学习曲线，想要以vim作为主要生产力工具，肯定是要花一番功夫的。就像武侠小说里写的一样，vim是宝剑，你得为它开锋。我自己在vim学习摸索出了下面的一些东西
+
 1.建议童鞋们将.vimrc放在github上，以后切换工作环境时也可以顺利迁移相关配置  
 2.花时间了解一下vimrc中一些常用的缩进，语法高亮，映射，搜索  
 3.推荐看看[Practical Vim](http://book.douban.com/subject/10599776/)  
