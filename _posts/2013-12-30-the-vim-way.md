@@ -12,6 +12,7 @@ vim号称“编辑器之神”，有一个比较陡峭的学习曲线，想要�
 2.花时间了解一下vimrc中一些常用的缩进，语法高亮，映射，搜索  
 3.推荐看看[Practical Vim](http://book.douban.com/subject/10599776/)  
 4.使用[vundle](https://github.com/gmarik/vundle/) 等工具来管理常用的vim插件 
+
 * syntastic		  语法检查插件，支持C/C++,Java,Python,Tex等
 * nerdtree        树形目录插件，能比较方便地在工作目录切换文件
 * nerdcommenter   代码注释插件，能快速将若干行行注释或者取消注释
