@@ -2,7 +2,7 @@
 layout: post
 title: "using vim plugin"
 description: ""
-category: 
+category: 技术 
 tags: [Vim]
 ---
 {% include JB/setup %}

@@ -2,7 +2,7 @@
 layout: post
 title: "漫谈计算机与写作"
 description: ""
-category: 
+category: 生活 
 tags: [随感]
 ---
 {% include JB/setup %}

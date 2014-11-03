@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "as long as you are here"
-description: ""
+description: "你的孤独，虽败犹荣"
 category: 书摘
 tags: []
 ---

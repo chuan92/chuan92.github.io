@@ -2,7 +2,7 @@
 layout: post
 title: "the vim way"
 description: ""
-category: 
+category: 技术 
 tags: [Vim]
 ---
 {% include JB/setup %}

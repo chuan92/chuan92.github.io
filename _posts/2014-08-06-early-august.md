@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Early August"
+title: "early August"
 description: ""
-category: 
+category: 生活 
 tags: [思绪]
 ---
 {% include JB/setup %}
