@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div id="home" class="page-content wc-container">
+	<div class="posts">
+		{% for post in site.posts limit:5 %}
+		<div class="post">
+			<h3 class="post-title">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+				</a>
+			</h3>
+
+			<p class="post-meta">
+			{% if (post.categories.size > 0 %}
+			<span class="categories">
+				{{ post.categories | array_to_sentence_string }}
+			</span> |
+			{% endif %}
+			<span class="post-date">
+				{{ post.date | date: "%b %-d, %Y" }} 
+			</span>
+			</p>          
+
+			<p>
+			{{ post.excerpt }}
+			</p>
+			<p>
+				<a href="{{ post.url }}">Read More</a>
+			</a>
+			</p>
+		</div>
+		{% endfor %}
+	</div>
+</div>
