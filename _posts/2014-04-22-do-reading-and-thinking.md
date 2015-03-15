@@ -3,7 +3,8 @@ layout: post
 title: "do reading and thinking"
 description: ""
 category: 
-tags: [思绪]
+tags: 
+
 ---
 {% include JB/setup %}
 最近一年，网站逛的太多，诸如小百合BBS，cnBeta，热衷于网络上的各种奇闻趣事，阅读太少，思考的时间就更少了。自己的状态到底还是太浮躁，不能够沉静下来做一些事情。  
