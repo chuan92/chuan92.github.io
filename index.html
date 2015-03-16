@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 ---
 <div id="home" class="page-content wc-container">
 	<div class="posts">
 		{% for post in site.posts limit:5 %}
-		<div class="post">
+		<div id="page">
 			<h3 class="post-title">
 				<a href="{{ post.url }}">{{ post.title }}</a>
 				</a>
@@ -29,6 +29,8 @@ layout: page
 			</a>
 			</p>
 		</div>
+		<br>
+		<!-- End Page -->
 		{% endfor %}
 	</div>
 </div>
