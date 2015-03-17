@@ -25,7 +25,7 @@ body {
 	/*font-family: Palatino, georgia, "times new roman", serif;*/
 	background-color: whitesmoke;
 	/*background-repeat: repeat-y; */
-	background: url(/assets/images/bg5.jpg) no-repeat top right;
+	background: url(/assets/images/bg5.jpg) no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
 }
