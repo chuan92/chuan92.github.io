@@ -24,10 +24,10 @@ body {
 	font-family:"PT Sans","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
 	/*font-family: Palatino, georgia, "times new roman", serif;*/
 	background-color: whitesmoke;
-	/*background-position: center -18em;*/
-	background-repeat: repeat-y; 
-	background: url(/assets/images/bg5.jpg);
+	/*background-repeat: repeat-y; */
+	background: url(/assets/images/bg5.jpg) no-repeat top right;
 	background-size: 100%;
+	background-attachment: fixed;
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
@@ -67,8 +67,9 @@ hr {
 
 sup { line-height: 1ex; }
 
+/*this is for page margin*/
 #site {
-	max-width: 46em;
+	max-width: 54em;
 	margin: 1.5em auto 3em auto;
 	line-height:1.5em;
 }
