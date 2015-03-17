@@ -14,6 +14,7 @@
  * Base line length: 24px
  * 
  * AUTHOR: Mark Reid <mark@reid.name>
+ * Modified by chuan92
  */
 
 /* @group Reset */
@@ -37,8 +38,8 @@ img { -ms-interpolation-mode:bicubic; }
 html>body { font-size:16px; }
 p { margin: 0 0 1.5em 0; text-align: justify; }
 
-a { text-decoration: none; color: #339; }
-a:hover { text-decoration: underline; color: #33f; }
+a { text-decoration: none; color: #1EAEDB; }
+a:hover { text-decoration: blink; color: #0FA0CE; text-shadow: #aaa 0px 0px 1px;}
 a.pdf:before { 
 	margin-right: 1em;
 	content: url(/files/css/icon_pdf.gif); }
@@ -198,11 +199,11 @@ ul.compact li a {
 /* @end */
 
 /* @group Header */
-#header, #header a { color: silver; }
+#header, #header a { color: #1EAEDB; }
 #header .hover { color: transparent; }
-#header:hover a { color: black; text-shadow: #aaa 2px 2px 3px;}
+#header:hover a { color: #0FA0CE; text-shadow: #aaa 2px 2px 3px;}
 #header:hover a:hover { text-decoration: none; }
-#header a:hover .hover { color: silver; }
+#header a:hover .hover { color: #0FA0CE; }
 #header {
 	position: relative;
 	font-variant: small-caps;
@@ -235,16 +236,16 @@ ul.compact li a {
 	display: inline;
 }
 #header ul li a:hover {
-	color: blue;
-	border-bottom: 2px solid blue;
+	color: #1EAEDB;
+	border-bottom: 2px solid #1EAEDB;
 }
 #header .byline {
 	color: silver;
 	font-size: 10pt;
 	line-height: 75%
 }
-#header:hover .byline a { color: silver; text-shadow: none; }
-#header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
+#header:hover .byline a { color:#1EAEDB; text-shadow: none; }
+#header:hover .byline a:hover { color: #0FA0CE; text-shadow: #aaa 1px 1px 2px;}
 
 /* @group Twitter */
 #twitter_update_list { display: inline; margin: 0; }
@@ -469,7 +470,7 @@ p.delicious-extended:before { content: ' — '; }
 #footer a {
 	font-variant: small-caps;
 	font-style: normal;
-	color: #77d;
+	color: #1EAEDB;
 	text-decoration: none;
 }
 #footer .copyright {
