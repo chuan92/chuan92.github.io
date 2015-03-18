@@ -18,6 +18,7 @@ author :
   #twitter : username
   feedburner : feedname
 markdown: kramdown
+excerpt_separator: <!--more-->
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

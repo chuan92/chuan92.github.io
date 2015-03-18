@@ -18,6 +18,7 @@ vim号称“编辑器之神”，有一个比较陡峭的学习曲线，想要�
 * nerdtree        树形目录插件，能比较方便地在工作目录切换文件
 * nerdcommenter   代码注释插件，能快速将若干行行注释或者取消注释
 * taglist         提供源代码符号本地结构化视图，依赖ctags
+<!--more-->
 * OmniCppComplete C/C++源码补全插件，依赖ctags
 * a.vim			  源文件与头文件快速切换
 * c.vim			  C/C++ support，自动添加文件头，快捷键编译运行

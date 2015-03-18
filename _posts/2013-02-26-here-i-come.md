@@ -18,6 +18,7 @@ C++
 {% highlight cpp%} 
 cout << "hello world"; 
 {% endhighlight %} 
+<!--more-->
 Java
 {% highlight java%} System.out.println("hello world");
 {% endhighlight %}   
