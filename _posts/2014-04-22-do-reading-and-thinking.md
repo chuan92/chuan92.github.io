@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "do reading and thinking"
+title: "Do Reading and Thinking"
 description: ""
 category: 
 tags: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "on top of tides"
+title: "On Top of Tides"
 description: "浪潮之巅"
 category: 书摘 
 tags: []

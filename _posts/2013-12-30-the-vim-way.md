@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "the vim way"
+title: "The Vim Way"
 description: ""
 category: 
 tags: [vim]
