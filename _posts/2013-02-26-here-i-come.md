@@ -11,12 +11,10 @@ category:
 >上下未形，何由考之？
 
 C		
-{% highlight c%} 
-printf("hello world");
+{% highlight c%} printf("hello world");
 {%endhighlight %}   
 C++
-{% highlight cpp%} 
-cout << "hello world"; 
+{% highlight cpp%} cout << "hello world"; 
 {% endhighlight %} 
 <!--more-->
 Java
