@@ -13,8 +13,8 @@
  * Base font height: 16px
  * Base line length: 24px
  * 
- * AUTHOR: Mark Reid <mark@reid.name>
- * Modified by chuan92
+ * Origin version author: Mark Reid <mark@reid.name>
+ * Modified Version author: chuan92 <hzhchuan@gmail.com>
  */
 
 /* @group Reset */
@@ -550,5 +550,8 @@ img.maruku-png { }
 	background:#57A957;
 	border:1px solid #4C964D;
 	color:#FFF;
+}
+.separator {
+  height: 35px;
 }
 
