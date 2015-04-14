@@ -32,6 +32,9 @@ tags: []
 ###wc
 + `wc -l` 统计文件行数
 
+###awk
++ `awk 'BEGIN{FS=","}{print $3 "," $2 "," $1} file.csv'` 将file.csv的列调换位置, FS设置分隔符(regex)
+
 <!-- to add less tr -->
 
 ###tmux
