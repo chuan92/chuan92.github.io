@@ -15,7 +15,7 @@ tags: []
 + `git reset HEAD` 暂存区的目录树会被重写，被master分支指向的目录树所替换，但是工作区不受影响
 + `git rm --cached <file>` 直接从暂存区删除文件，工作区则不做出改变
 + `git checkout -- <file>` 用暂存区指定的文件替换工作区的文件,会清除工作区中未添加到暂存区的改动
-+ `git checkout HEAD <file>` 用HEAD指向的master分支中的全部或者部分文件替换暂存区和以及工作区中的文件。这个命令也是极具危险性的，因为不但会清除工作区中未提交的改动，也会清除暂存区中未提交的改动
++ `git checkout HEAD <file>` 用HEAD指向的master分支中的全部或者部分文件替换暂存区和以及工作区中的文件。这个命令是极具危险性的，因为不但会清除工作区中未提交的改动，也会清除暂存区中未提交的改动
 
 
 ![](http://www.worldhello.net/wpfiles/2010/11/git-stage.png)
