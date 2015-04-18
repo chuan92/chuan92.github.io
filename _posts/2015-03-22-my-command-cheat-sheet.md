@@ -25,7 +25,7 @@ tags: []
 + `grep [option] pattern file` 在file中搜寻pattern
 
 ###find
-+ `find dir -name 'filename'` 在dir文件目录下寻找filename文件
++ `find dir -name 'filename'` 在dir目录下寻找filename文件
 
 <!--more-->
 
