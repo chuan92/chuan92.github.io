@@ -18,7 +18,7 @@ tags: []
 + `git checkout HEAD <file>` 用HEAD指向的master分支中的全部或者部分文件替换暂存区和以及工作区中的文件。这个命令是极具危险性的，因为不但会清除工作区中未提交的改动，也会清除暂存区中未提交的改动
 
 
-![](http://www.worldhello.net/wpfiles/2010/11/git-stage.png)
+![](https://chuan92.com/imagesapce/git-stage.png)
 <!--more-->
 
 + 一次Git克隆会建立你自己的本地分支master和远程分支origin/master，并且将它们都指向origin上的master分支，在本地是无法直接更改origin/master数据的
