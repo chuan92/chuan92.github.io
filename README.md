@@ -1,1 +1,1 @@
-This is chuan92's blog with help of Jekyll-Bootstrap
+This is chuan92's blog with the help of Jekyll-Bootstrap
