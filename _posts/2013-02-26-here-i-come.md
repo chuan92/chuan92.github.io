@@ -32,5 +32,5 @@ python
 
 
 {% highlight c%}
-tell that this is very interesting
+A man does what he can, until his destiny is revealed
 {% endhighlight %}
