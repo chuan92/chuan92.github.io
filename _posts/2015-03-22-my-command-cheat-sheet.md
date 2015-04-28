@@ -7,7 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 纪录我使用的一些简单linux命令
-发现一个比较好玩的程序，[eg](https://github.com/srsudar/eg)，针对常用命令给出一些例子，比man更容易快速读懂
+
+发现一个比较好玩的程序[eg](https://github.com/srsudar/eg)，针对常用命令给出一些例子，比man更容易快速读懂
 
 ###sort 
 + `sort -u` 删除重复行
