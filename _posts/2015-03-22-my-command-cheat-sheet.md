@@ -23,14 +23,13 @@ tags: []
 ###sed
 + `sed '/^$/d;/regex/d'` 删除空行或者由regex表示的行
 
+
+<!--more-->
 ###grep
 + `grep [option] pattern file` 在file中搜寻pattern
 
 ###find
 + `find dir -name 'filename'` 在dir目录下寻找filename文件
-
-
-<!--more-->
 
 ###wc
 + `wc -l` 统计文件行数
