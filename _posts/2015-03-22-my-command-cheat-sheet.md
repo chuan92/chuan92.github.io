@@ -29,6 +29,7 @@ tags: []
 ###find
 + `find dir -name 'filename'` 在dir目录下寻找filename文件
 
+
 <!--more-->
 
 ###wc
