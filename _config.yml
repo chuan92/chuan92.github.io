@@ -16,8 +16,12 @@ author :
   github : chuan92
   #twitter : username
   feedburner : feedname
-markdown: kramdown
-excerpt_separator: <!--more-->
+  #markdown: kramdown
+markdown: redcarpet
+redcarpet:
+ extensions: ["no_intra_emphasis", "fenced_code_blocks", "footnotes", "highlight", "strikethrough", "underline", "autolink", "tables", "with_toc_data"]
+excerpt_separator: "\n\n\n"
+#excerpt_separator: <!--more-->
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
