@@ -5,11 +5,9 @@ description: ""
 category: 技术
 tags: []
 ---
-{% include JB/setup %}
-
 使用Python的人可能都听过IPython，顾名思义，它想做的其实是_Interactive Computing_。相比原生的Python Shell，IPython有着强大的编辑和交互功能，可以很大程度地提高生产效率。IPython的自动变量名补全，函数方法提示都非常好用。  
 
-IPython的另一个强大的功能是其提供的IPython notebook。IPython notebook是一个基于Web的交互式编程环境，你可以在一个页面里混合python代码，markdown文本以及\\(\LaTeX\\)公式。在浏览器里可以直接观察python代码的输出，甚至是matplotlib画出的图像。IPython notebook的这些特性使它非常适合作为教学使用以及演示代码。  
+IPython的另一个强大的功能是其提供的IPython notebook。IPython notebook是一个基于Web的交互式编程环境，你可以在一个页面里混合python代码，markdown文本以及\[\LaTeX\]公式。在浏览器里可以直接观察python代码的输出，甚至是matplotlib画出的图像。IPython notebook的这些特性使它非常适合作为教学使用以及演示代码。  
 
 
 下面简单讲一下如何安装和使用IPython，以及我遇到的一些问题  

@@ -5,7 +5,6 @@ description: ""
 category: 技术
 tags: []
 ---
-{% include JB/setup %}
 纪录一些git命令
 
 + `git status` 检查当前文件状态

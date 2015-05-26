@@ -5,7 +5,6 @@ description: ""
 category: 
 
 ---
-{% include JB/setup %}
 >曰遂古之初，谁传道之？
 
 >上下未形，何由考之？
