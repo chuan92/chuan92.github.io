@@ -35,6 +35,7 @@ tags: []
 
 ###awk
 + `awk 'BEGIN{FS=","}{print $3 "," $2 "," $1} file.csv'` 将file.csv的列调换位置, FS设置分隔符(regex)
++ `awk '!x[$0]++' file` 保序删除file中的重复行
 
 <!-- to add less tr -->
 
