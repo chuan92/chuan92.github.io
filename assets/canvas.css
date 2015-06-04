@@ -1,0 +1,188 @@
+#sketch-board {
+	display: block;
+	width: 660px;
+	border: 1px dashed #d5d4d3;
+	background: #fff;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-ms-user-select: none;
+	
+}
+
+#container {
+	position: relative;
+	height: 200px;
+	z-index: 1;
+}
+
+.canvas {
+	cursor: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#canvas-cursor {
+	z-index: 3;
+}
+
+#canvas-template {
+	z-index: 2;	
+}
+
+#canvas-quote {
+	z-index: -1;
+}
+
+#canvas-main {
+	z-index: 0;	
+}
+#canvas-temp {
+	z-index: 1;
+}
+#option-color {
+	stroke-width: 5;
+	stroke-opacity: 0;
+}
+
+#option-color circle:hover {
+	stroke-opacity: 0.4;
+}
+#option-color circle[fill="#fff"]:hover {
+	stroke-opacity: 0.3;
+	stroke-width: 5;
+}
+
+#option-width rect:hover {
+	fill: #e0ded1;
+	fill-opacity: 0.2;
+}
+
+#options {
+	background: rgba(255,255,255,0.8);
+	display: none;
+	position: relative;
+	top: -48px;
+	height: 47px;
+	overflow: hidden;
+	margin-bottom: -48px;
+	border-top: 1px dashed #d5d4d3;
+	z-index: 2;
+}
+
+#options.color, #options.width {
+	display: block;
+}
+
+#options.color #option-color {
+	margin-top: 0;
+}
+
+#options.width #option-color {
+	margin-top: -50px;
+}
+
+#options svg {	
+	display: block;
+}
+
+#toolbox {
+	border-top: 1px dashed #d5d4d3;
+	margin: 0;
+	padding: 5px;
+	height: 20px;
+	cursor: default;
+}
+
+#toolbox li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;	
+	padding: 0;
+	cursor: pointer;
+	margin: 0;
+	position: relative;
+	z-index: 999;
+	border-radius: 2px;
+}
+
+#toolbox li:hover,
+#toolbox li.current {	
+	box-shadow: 0px 0px 1px 0px #444;
+}
+
+#toolbox li.current {
+	cursor: default;
+}
+
+#color span {
+	background: #5a5954;
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin: 3px;
+	border-radius: 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+}
+
+#color span[style*="fff"] {
+	-moz-box-sizing: border-box;
+	border: 1px solid #ddd;
+}
+
+#width {
+/*	background: url("../images/width.svg");
+	background-position: 0px -20px;*/
+}
+
+#pen {
+	background: url("../images/pen.png");
+	background-size: 20px 20px;
+}
+
+#eraser {
+	background: url("../images/eraser.png");
+	background-size: 20px 20px;
+}
+
+#undo {
+	background: url("../images/undo.png");
+	background-size: 20px 40px;
+	background-position: 0 0;
+}
+
+#redo {
+	background: url("../images/redo.png");
+	background-size: 20px 40px;
+	background-position: 0 0;
+}
+
+#clear {
+	background: url("../images/clear.png");
+	background-size: 20px 40px;
+	background-position: 0 0;
+}
+
+#undo.disabled,
+#redo.disabled,
+#clear.disabled {
+	background-position: 0 20px;
+}
+
+#undo.disabled:hover,
+#redo.disabled:hover,
+#clear.disabled:hover,
+#clear.cleared:hover {
+	box-shadow: none;
+	cursor: default;
+}
+
+#clear.cleared {
+	background-position: 0 -20px;
+}
