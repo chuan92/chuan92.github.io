@@ -2,7 +2,7 @@
 layout: post
 title: "The Vim Way"
 description: ""
-category: 
+category: 工具
 tags: [vim]
 
 ---

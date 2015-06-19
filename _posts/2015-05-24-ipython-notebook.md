@@ -2,15 +2,16 @@
 layout: post
 title: "IPython小记"
 description: ""
-category: 技术
+category: 工具
 tags: []
 ---
 使用Python的人可能都听过IPython，顾名思义，它想做的其实是_Interactive Computing_。相比原生的Python Shell，IPython有着强大的编辑和交互功能，可以很大程度地提高生产效率。IPython的自动变量名补全，函数方法提示都非常好用。  
 
 IPython的另一个强大的功能是其提供的IPython notebook。IPython notebook是一个基于Web的交互式编程环境，你可以在一个页面里混合python代码，markdown文本以及$\LaTeX$公式。在浏览器里可以直接观察python代码的输出，甚至是matplotlib画出的图像。IPython notebook的这些特性使它非常适合作为教学使用以及演示代码。  
 
-
 下面简单讲一下如何安装和使用IPython，以及我遇到的一些问题  
+
+
 1. 首先是安装IPython: 输入命令`sudo pip install ipython[all]`，在Linux系统中可能依赖`build-essential`，`python-dev`软件包。  
 2. 本地运行IPython notebook: 运行命令`ipython notebook`，输入URL http://127.0.0.1:8888/ 可以实现仅在本地访问。  
 3. 服务器运行IPython notebook，允许远程访问：  
