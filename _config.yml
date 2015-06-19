@@ -19,7 +19,7 @@ author :
   #markdown: kramdown
 markdown: redcarpet
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "footnotes", "highlight", "strikethrough", "underline", "autolink", "tables", "with_toc_data", "superscript", "quote"]
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "footnotes", "highlight", "strikethrough", "underline", "autolink", "tables", "with_toc_data", "quote"]
 excerpt_separator: "\n\n\n"
 #excerpt_separator: <!--more-->
 
