@@ -17,7 +17,7 @@ Markdown现在经常被用来做笔记，写博客。像一些交互式编程环
 `this is __strong__`: this is __strong__  
 `this is ~~strikethrough~~`: this is ~~strikethrough~~  
 `this is ==hightlighted==`: this is ==hightlighted==  
-`this is reference[^1]`: this is reference[^1]  
+`this is footnote[^1]`: this is footnote[^1]  
 `this is link https://chuan92.com`: this is link https://chuan92.com  
 `>this is blockquote`:
 > this is blockquote
@@ -68,5 +68,5 @@ intro here
 intro here, 点击Intro to Linear Classification的链接可以到达这里
 
 
-[^1]: this is reference
+[^1]: this is footnote 1
 
