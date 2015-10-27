@@ -10,12 +10,12 @@ tags: []
 ##声明(Declaration)
 > Declaration: asserts the existence of a variable, function, or type defined elsewhere. Names may not be used until they are defined or declared.  [C++ Primer,p78]
 
-声明的作用是指定变量的类型和名称，`makes a name known to the program`。C++中区分声明和定义可以支持分开编译，比如A.cpp中定义了变量`var1`，在B.cpp中只需要声明`var1`这个变量就可以直接使用。因为这样的用法，声明常常见于头文件中，源文件include头文件之后，就可以使用这个变量，即使没有看到该变量的定义。
+声明的作用是指定变量的类型和名称，`makes a name known to the program`。区分声明和定义可以让C++支持分开编译，比如A.cpp中定义了变量`var1`，在B.cpp中只需要声明`var1`这个变量就可以直接使用。因为这样的用法，声明常常见于头文件中。源文件包含头文件之后，就可以使用这个变量，即使没有看到该变量的定义。
 声明的语法如下：
 
 ```cpp
-extern int i; // declares but does not define i
-int j; // declares and defines j
+extern int i; // declaration
+int j; // definition
 extern double pi = 3.1416; // definition
 ```
 
