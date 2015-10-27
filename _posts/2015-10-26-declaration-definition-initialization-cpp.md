@@ -53,7 +53,7 @@ int c(pi), d = pi;			//ok: implict conversion.
 ```
 
 #### value initialization
-value initialization见于库函数里的vector和数组的初始化。即数组或vector里的元素若是built-in type，则初始化为0，若是class type则由类默认构造。list initialization经常与value initialization结合起来使用，为我们初始化全0数组提供了很大的便利，用法如下：
+value initialization里，built-in type变量被初始化为0，class type的对象被默认构造(一定要有)初始化。这种方式通常见于STL里的vector和数组，且经常与list initialization结合起来使用，为我们初始化全0数组提供了很大的便利。简单用法如下：
 
 ```cpp
 vector<int> ivec(10);			//ten elements, each initialized to 0
