@@ -22,8 +22,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-family:"Consolas","Hiragino Sans GB","Microsoft YaHei",sans-serif;
-	/*font-family: Palatino, georgia, "times new roman", serif;*/
+	font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+
+	/*font-family: "Consolas","Hiragino Sans GB","Microsoft YaHei",sans-serif;*/
 	background-color: whitesmoke;
 	/*background-repeat: repeat-y; */
 /*	background: url(/assets/images/bg5.jpg) no-repeat;*/
@@ -44,18 +45,18 @@ a.pdf:before {
 	margin-right: 1em;
 	content: url(/files/css/icon_pdf.gif); }
 
-h1,h2,h3,h4 { 
+h1,h2 { 
 	line-height:1em; 
 	font-size:1.5em; 
 	font-weight: normal; 
 	clear: left; 	
-	font-family: 'lucida grande', sans-serif; 
+	font-family:'Microsoft YaHei', 'lucida grande', sans-serif; 
 }
 h1 { margin-bottom: 1em; }
 h2 {
 	font-size: 100%;
 	line-height: 1.5em;
-	margin:1.5em 0 1.5em 0;
+	margin:2em 0 1em 0;
 	font-weight:bold;
 }
 
@@ -159,7 +160,14 @@ sup { line-height: 1ex; }
 	font-size: 0.875em;
 	line-height: 1.714em;
 }
-blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}
+blockquote p{
+	font-family: Lora, Georgia, 'Times New Roman', 楷体, STKaiti, serif;
+	font-size:16px;
+	font-weight:300;
+	line-height:18px;
+	margin-bottom:0;
+}
 
 .note {
 	padding-top: 0.5em; 
@@ -402,6 +410,7 @@ pre:hover {
 	overflow: visible;
 }
 code {
+	font-family: "Consolas";
 	font-size: 1em;
 	background-color: #f7f7ff;
 	line-height: 1.4em;
