@@ -38,7 +38,7 @@ extern double pi = 3.1416; // definition
 当我们定义一个变量时，不提供initializer，那么这个变量就是默认初始化(default initialized)的。默认值由变量的类型和变量的定义位置来决定。
 
 * 对于_built-in type_，默认值由变量的定义位置决定。在函数外部定义的全局变量(global variable)，函数内部定义的局部静态变量(local static object)全部初始化为0，函数内部定义的局部变量则是未初始化的；使用未初始化的变量值的行为是未定义的，编译器不保证不会自燃。
-* 对于_class type_, 由类里的默认构造函数初始化。如果类定义里没有默认构造函数(显示或隐示)，则编译出错。
+* 对于_class type_，由类里的默认构造函数初始化。如果类定义里没有默认构造函数(显示或隐示)，则编译出错。
 
 
 #### list initialization
@@ -47,7 +47,7 @@ C++11中提供了一种新的初始化方式，list initialization。注意这�
 ```cpp
 int units_sold = {0};		//ok: list initialization
 int units_sold{0};			//ok: list initialization
-long double pi = 3.1415
+long double pi = 3.1415;
 int a{pi}, b = {pi};		//error: narrowing conversion required.
 int c(pi), d = pi;			//ok: implict conversion.
 ```
