@@ -7,8 +7,8 @@ body,div,padding,input,p,img{
 body,html{
     height:100%;
     width:100%;
-    background:#444;
-    color:#DDD;
+    background: whitesmoke;
+    color: #302505;
 }
 
 div#content{
@@ -20,7 +20,6 @@ div#content{
 }
 
 a:link, a:visited{
-    color:#DDD;
 }
 
 div#top_line{
@@ -36,7 +35,7 @@ div#footer{
 }
 
 div.topic_header{
-	color: #7CFC11;
+	color: #1169FC;
 	margin-top:2%;
 }
 
