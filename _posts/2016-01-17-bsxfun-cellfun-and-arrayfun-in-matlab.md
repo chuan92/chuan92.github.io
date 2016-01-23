@@ -77,7 +77,7 @@ for i=1:100
 end
 toc											 %Elapsed time is 0.079868 seconds
 ```
-使用函数句柄(function handle)或者匿名函数(anonymous function)都会让cellfun速度变慢。建议在对代码的简洁性要求高，或者func为'isempty'这样特殊的函数才使用cellfun。更多关于cellfun的讨论可以参见博客[^1]以及Mathworkd论坛[^2]
+使用函数句柄(function handle)或者匿名函数(anonymous function)都会让cellfun速度变慢。建议在对代码的简洁性要求高，或者func为'isempty'这样特殊的函数才使用cellfun。更多关于cellfun的讨论可以参见博客[^1]以及Mathworks论坛[^2]
 
 ##3. arrayfun
 > arrayfun: apply function to each element of array  
