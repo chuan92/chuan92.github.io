@@ -44,7 +44,7 @@ dist = sqrt(-bsxfun(@minus,bsxfun(@minus,2*A'*B,sum(A.^2,1)'),sum(B.^2,1)));
 toc									%Elapsed time is 0.006528 seconds
 
 % if A and B row is an example, i.e. 
-A=rand(k,d), B=rand(n,d)
+A=rand(k,d); B=rand(n,d);
 dist = sqrt(-bsxfun(@minus,bsxfun(@minus,2*A*B',sum(A.^2,2)),sum(B.^2,2)'));
 ```
 
