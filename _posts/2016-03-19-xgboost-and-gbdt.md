@@ -2,7 +2,7 @@
 layout: post
 title: "XGBOOST和GBDT的不同"
 description: ""
-category: ML&DM
+category: 机器学习
 tags: []
 ---
 知乎上有个人问xgboost与gbdt的不同，这里记录一下我的简单回复。首先xgboost是Gradient Boosting的一种高效系统实现，并不是一种单一算法。xgboost里面的基学习器除了用tree(gbtree)，也可用线性分类器(gblinear)，而GBDT则特指梯度提升决策树算法。xgboost相对于普通gbm的实现，可能具有以下的一些优势：
