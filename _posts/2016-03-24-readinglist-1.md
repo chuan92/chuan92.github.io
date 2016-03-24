@@ -11,7 +11,7 @@ tags: []
 Python进阶书，2015年8月份出版，在亚马逊，豆瓣上基本都是五星好评。从data model开篇，讲述如何让你的代码更pythonic。每章结尾会有一篇称为soapbox的短文，像博文一样发表自己对于Python和其他编程语言的评论，很多观点十分有趣。这本书让我找到了当年读《C专家编程》的感觉，绝对不容错过。
 P.S. 此书的样例代码是Python3.4，这也让我下定决心迁移到Py3。
 
-![](http://akamaicovers.oreilly.com/images/0636920032519/lrg.jpg)
+![](/assets/images/fluent_python.jpg)
 
 
 ## Effective Python
