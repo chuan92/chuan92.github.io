@@ -42,14 +42,20 @@ extern double pi = 3.1416; // definition
 
 
 #### list initialization
-C++11中提供了一种新的初始化方式，list initialization。注意这种初始化方式要求提供的初始值与要初始化的变量类型严格统一，用法如下，
+C++11中提供了一种新的初始化方式，list initialization，以大括号包围。*A tour of c++*中写到`The = form is traditional and dates back to C, but if in doubt, use the general {}-list form`。注意这种初始化方式要求提供的初始值与要初始化的变量类型严格统一，用法如下，
 
 ```cpp
-int units_sold = {0};		//ok: list initialization
-int units_sold{0};			//ok: list initialization
+//built-in type initialization
+double d1{2.3};			     //ok: initialize d1 to 2.3
+double d2 = {2.3};		     //ok: initialize d2 to 2.3
+//class type initialization
+complex<double> z2 {d1,d2};
+complex<double> z3 = {1,2};  //ok: the = is optional with {...}
+vector<int> v {1,2,3,4,5,6}; //ok: a vector of ints
+
 long double pi = 3.1415;
-int a{pi}, b = {pi};		//error: narrowing conversion required.
-int c(pi), d = pi;			//ok: implict conversion.
+int a{pi}, b = {pi};		 //error: narrowing conversion required.
+int c(pi), d = pi;			 //ok: implict conversion.
 ```
 
 #### value initialization
@@ -68,7 +74,8 @@ int a3[5] = {1,2,3};			//equivalent to a3[] = {1,2,3,0,0}
 
 * 编译器首先编译类成员的声明，包括函数和变量
 * 整个类可见后，才编译函数体(所以不管定义顺序，函数里可以用类里的任何变量和函数)
-* C++11提供了in-class initializers机制。Constructor Initializer List对变量进行初始化后，才进入构造函数。Constructor Initializer List里忽略的成员变量(为空则相当于全部忽略)，会由in-class initializers初始化，否则采取默认初始化进入构造函数体。构造函数体实际是给成员二次赋值，类里的class type成员其实已经默认初始化过了。所以C++ Primer里面讲如果编译器支持，推荐使用in-class initializers机制
+* C++11提供了in-class initializers机制。注意这种机制只支持=，{}形式，不支持()。Constructor Initializer List对变量进行初始化后，才进入构造函数。Constructor Initializer List里忽略的成员变量(为空则相当于全部忽略)，会由in-class initializers初始化，否则采取默认初始化进入构造函数体
+* 构造函数体实际是给成员二次赋值，类里的class type成员其实已经默认初始化过了。所以C++ Primer里面讲如果编译器支持，推荐使用in-class initializers机制
 * 对于built-in type，要么in-class initialization，要么initializer list，要么构造函数里赋值，总之不能不管
 
 ```cpp
