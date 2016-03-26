@@ -37,7 +37,7 @@ extern double pi = 3.1416; // definition
 #### default initialization
 当我们定义一个变量时，不提供initializer，那么这个变量就是默认初始化(default initialized)的。默认值由变量的类型和变量的定义位置来决定。
 
-* 对于_built-in type_，默认值由变量的定义位置决定。在函数外部定义的全局变量(global variable)，函数内部定义的局部静态变量(local static object)全部初始化为0，函数内部定义的局部变量则是未初始化的；使用未初始化的变量值的行为是未定义的，编译器不保证不会自燃。
+* 对于_built-in type_，默认值由变量的定义位置决定。在函数外部定义的全局变量(global variable)，函数内部定义的局部静态变量(local static object)全部初始化为0。函数内部定义的局部变量，以及类中不在初始化成员列表和构造函数里体的成员变量都是未初始化的；使用未初始化的变量值的行为是未定义的，编译器不保证不会自燃。
 * 对于_class type_，由类里的默认构造函数初始化。如果类定义里没有默认构造函数(显示或隐示)，则编译出错。
 
 
@@ -68,7 +68,8 @@ int a3[5] = {1,2,3};			//equivalent to a3[] = {1,2,3,0,0}
 
 * 编译器首先编译类成员的声明，包括函数和变量
 * 整个类可见后，才编译函数体(所以不管定义顺序，函数里可以用类里的任何变量和函数)
-* C++11提供了in-class initializers机制。Constructor Initializer List对变量进行初始化后，才进入构造函数。Constructor Initializer List里忽略的成员变量(为空则相当于全部忽略)，会由in-class initializers初始化，否则采取默认初始化进入构造函数体。
+* C++11提供了in-class initializers机制。Constructor Initializer List对变量进行初始化后，才进入构造函数。Constructor Initializer List里忽略的成员变量(为空则相当于全部忽略)，会由in-class initializers初始化，否则采取默认初始化进入构造函数体。构造函数体实际是给成员二次赋值，类里的class type成员其实已经默认初始化过了。所以C++ Primer里面讲如果编译器支持，推荐使用in-class initializers机制
+* 对于built-in type，要么in-class initialization，要么initializer list，要么构造函数里赋值，总之不能不管
 
 ```cpp
 class Sales_data {
@@ -80,7 +81,7 @@ class Sales_data {
 	Sales_data(const std::string &s): bookNo(s) { }
 	std::string bookNo;				
 	unsigned units_sold = 0;		//in-class initializer
-	double revenue;	
+	double revenue;
 };
 ```
 
