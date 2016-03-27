@@ -46,8 +46,8 @@ C++11中提供了一种新的初始化方式，list initialization，以大括�
 
 ```cpp
 //built-in type initialization
-double d1{2.3};			     //ok: initialize d1 to 2.3
-double d2 = {2.3};		     //ok: initialize d2 to 2.3
+double d1{2.3};			     //ok: direct-list-initialization 
+double d2 = {2.3};		     //ok: copy-list-initialization
 //class type initialization
 complex<double> z2 {d1,d2};
 complex<double> z3 = {1,2};  //ok: the = is optional with {...}
