@@ -77,6 +77,7 @@ int a3[5] = {1,2,3};			//equivalent to a3[] = {1,2,3,0,0}
 * C++11提供了in-class initializers机制。注意这种机制只支持=，{}形式，不支持()。Constructor Initializer List对变量进行初始化后，才进入构造函数。Constructor Initializer List里忽略的成员变量(为空则相当于全部忽略)，会由in-class initializers初始化，否则采取默认初始化进入构造函数体
 * 构造函数体实际是给成员二次赋值，类里的class type成员其实已经默认初始化过了。所以C++ Primer里面讲如果编译器支持，推荐使用in-class initializers机制
 * 对于built-in type，要么in-class initialization，要么initializer list，要么构造函数里赋值，总之不能不管
+* 类的静态函数成员可以在类内部或者外部定义，而静态数据成员(const除外)则只能在外部定义以及初始化
 
 ```cpp
 class Sales_data {
