@@ -2,7 +2,7 @@
 layout: post
 title: "高效能程序员的修炼"
 description: ""
-category: "书摘"
+category: "读书"
 tags: []
 ---
 读了知名博主Jeff Atwood的[高效能程序员的修炼](http://book.douban.com/subject/24868904/)一书，有三条很受用

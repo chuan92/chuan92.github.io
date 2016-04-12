@@ -2,7 +2,7 @@
 layout: post
 title: "My Command Cheat Sheet"
 description: ""
-category: 技术
+category: 编程
 tags: []
 ---
 纪录我使用的一些简单linux命令

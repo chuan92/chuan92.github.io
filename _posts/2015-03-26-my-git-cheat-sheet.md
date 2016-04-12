@@ -2,7 +2,7 @@
 layout: post
 title: "My Git Cheat Sheet"
 description: ""
-category: 技术
+category: 编程
 tags: []
 ---
 纪录一些git命令
@@ -19,7 +19,6 @@ tags: []
 
 
 <!--![](https://7xidap.com1.z0.glb.clouddn.com/git-stage.png)-->
-<!--more-->
 
 + 一次Git克隆会建立你自己的本地分支master和远程分支origin/master，并且将它们都指向origin上的master分支，在本地是无法直接更改origin/master数据的
 

@@ -26,5 +26,6 @@ vim号称“编辑器之神”，有一个比较陡峭的学习曲线，想要�
 * vim-fugitive    View any blob, tree, commit, or tag in the git repository
 * supertab		  使用tab来补全代码
 * delimitMate	  自动补全括号，引号 
+* python-mode	  Python插件
 
 5.[github](https://github.com/skwp/dotfiles)上有很多比较好的配置可以借鉴，你也可以看下[我的vim配置](https://github.com/chuan92/dotfiles)

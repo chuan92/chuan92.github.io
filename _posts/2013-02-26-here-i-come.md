@@ -10,26 +10,40 @@ category:
 >上下未形，何由考之？
 
 C		
-{% highlight c%} printf("hello world");
-{%endhighlight %}   
+
+```c
+printf("hello world");
+```
+
 C++
-{% highlight cpp%} cout << "hello world"; 
-{% endhighlight %} 
-<!--more-->
+
+```cpp
+cout << "hello world"; 
+```
+
+Python
+
+```python
+print("hello world")
+```
+
+
 Java
-{% highlight java%} System.out.println("hello world");
-{% endhighlight %}   
+
+```java
+System.out.println("hello world");
+```
+
 Scheme	
-{% highlight scheme%} (display "hello world");  
-{% endhighlight %} 
-bash
-{% highlight bash%} echo "hello world"; 
-{% endhighlight %} 
-python	
-{% highlight python%} print("hello world");
-{% endhighlight %} 
 
+```scheme
+(display "hello world");  
+```
 
-{% highlight c%}
-A man does what he can, until his destiny is revealed
-{% endhighlight %}
+Bash
+
+```bash
+echo "hello world"; 
+```
+
+> A man does what he can, until his destiny is revealed

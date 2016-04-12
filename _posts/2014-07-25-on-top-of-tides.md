@@ -2,7 +2,7 @@
 layout: post
 title: "浪潮之巅"
 description: "浪潮之巅"
-category: 书摘 
+category: 读书 
 tags: []
 ---
 * 摩尔定律使得各个公司现在得研发必须针对多年后的市场。你可以试着想一下十年后的网速，内存，硬盘，cpu速度，然后那个时候会有什么应用场景
