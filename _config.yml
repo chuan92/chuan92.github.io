@@ -4,15 +4,15 @@ permalink: /:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 # highlighter: pygments
-highlighter: rouge          #for local use
+highlighter: rouge
 gems:
     - jekyll-feed
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Hacking Hub
-name : Hacking Hub
+title : Shallow Thought
+name : Shallow Thought
 #tagline: Site Tagline
 author :
   name :  chuan92
