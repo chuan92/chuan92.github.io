@@ -11,6 +11,7 @@ tags: []
 在数值分析中，函数的不动点是指被这个函数映射到其自身的一个点。也就是说，$c$是函数$f(x)$的不动点，当且仅当$f(c)=c$。有些函数可能不止一个不动点，如$f(x)=\frac{4}{x}$的不动点是$\pm2$；有些函数则没有不动点，如$f(x)=x+1$。
 
 对于简单的函数，可以直接解方程$f(x)=x$来求解不动点。对于复杂的函数，方程的求解则是个很困难的过程，能不能用数值方法来迭代逼近这个点呢？答案对于具有某些性质的函数是肯定的，有如下定理：
+
 > If a function $f$ defined on the real line with real values is Lipschitz continuous with Lipschitz constant $L<1$, then this function has precisely one fixed point, and the fixed-point iteration converges towards that fixed point for any initial guess $x_{0}$. 
 此定理可以推广到任意的度量空间，只要满足映射是[压缩映射](https://en.wikipedia.org/wiki/Contraction_mapping)，有兴趣的可以参看[Banach fixed-point theorem](https://en.wikipedia.org/wiki/Banach_fixed-point_theorem)
 
