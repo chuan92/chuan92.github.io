@@ -28,7 +28,7 @@ tags: []
 
 我们知道，对于无约束凸函数来说，局部最优即全局最优，而局部最优对应的就是梯度为0点。本质上，梯度下降法和牛顿法都是在找梯度为0的极值点，也就是说其实是方程求根问题。这样自然就和我们上面的不动点迭代联系起来了。下面的联系并未有严格的收敛性证明，也没有对向量值函数的单独分析，仅是提供一种观点，欢迎探讨。
 
-#### 梯度下降方法
+### 梯度下降方法
 
 $$\alpha f'(x)=0$$
 $$x_1 = x_0-\alpha f'(x_0)$$
@@ -36,7 +36,7 @@ $$x_2 = x_1-\alpha f'(x_1)$$
 $$\cdots$$
 $$x_n = x_{n-1}- \alpha f'(x_{n-1})$$
 
-#### 牛顿法
+### 牛顿法
 求梯度$f'(x)$的零点
 $$x_{n+1}=x_{n}-{\frac {f'(x_{n})}{f''(x_{n})}}$$
 上式也可以由二阶泰勒展式推导得到，感兴趣的可以参见[Newton's method in optimization](https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization)以及博文[Numerical Optimization: Understanding L-BFGS](http://aria42.com/blog/2014/12/understanding-lbfgs)
