@@ -19,7 +19,7 @@ tags: []
 
 总之，上面的定理就是说对于满足某些性质的映射，可以通过$x,\ f(x),\ f(f(x)),\ f(f(f(x))),\dots $来逼近$f(x)=x$的根。方程求根是不动点迭代的一大应用。
 
-[牛顿法](https://en.wikipedia.org/wiki/Newton%27s_method)找零点：选择一个接近函数 $f(x)$零点的 $x_{0}$，计算相应的$f(x_0)$和切线斜率$f'(x_0)$。然后计算穿过点 $(x_{0},f(x_{0}))$并且斜率为$f'(x_0)$的直线和$x$轴的交点的$x$坐标，也就是求如下方程的解：$$f(x_{0})=(x_{0}-x)\cdot f'(x_{0})$$迭代公式为$$x_{n+1}=x_{n}-{\frac {f(x_{n})}{f'(x_{n})}}$$
+[牛顿法](https://en.wikipedia.org/wiki/Newton%27s_method)找零点：选择一个接近函数 $f(x)$零点的 $x_{0}$，计算在$x_0$处的泰勒展开，$$f(x)=f(x_0)+f'(x_0)(x-x_0)$$.令$f(x)=0$，得到$x=x_0-{\frac {f(x_0)}{f'(x_0)}}$，这是比$x_0$更逼近零点的点。直观上讲，就是计算穿过点 $(x_{0},f(x_{0}))$并且斜率为$f'(x_0)$的直线和$x$轴的交点的$x$坐标。$f(x)$的零点就是$g(x)$的不动点，迭代公式为$$x_{n+1}=x_{n}-{\frac {f(x_{n})}{f'(x_{n})}}=g(x_n)$$
 迭代示意图[^1]如右：
 ![](/assets/images/NewtonIteration_Ani.gif)
 
@@ -39,7 +39,7 @@ $$x_n = x_{n-1}- \alpha f'(x_{n-1})$$
 #### Newton's Method
 求梯度$f'(x)$的零点
 $$x_{n+1}=x_{n}-{\frac {f'(x_{n})}{f''(x_{n})}}$$
-上式也可以由二阶泰勒展式推导得到，感兴趣的可以参见[Newton's method in optimization](https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization)以及博文[Numerical Optimization: Understanding L-BFGS](http://aria42.com/blog/2014/12/understanding-lbfgs)
+想更多了解牛顿法及其变种的可以参见博文[Numerical Optimization: Understanding L-BFGS](http://aria42.com/blog/2014/12/understanding-lbfgs)
 
 上面是笔者对于不动点和梯度方法的一些不成熟想法。优化里的[Proximal Algorithms](https://en.wikipedia.org/wiki/Proximal_gradient_method)，其实也是以不动点作为其理论基础的，后续笔者会抽时间对[proximal method](http://web.stanford.edu/~boyd/papers/prox_algs.html)作单独介绍。
 
