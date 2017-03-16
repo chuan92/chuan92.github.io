@@ -109,7 +109,7 @@ JB :
   #        
   analytics :
     provider : baidu
-    baidu:
+    baidu :
       site_id : '576d855003bbb0058d8a6343b24534fe'
     google : 
       tracking_id : 'UA-39927759-1'
