@@ -36,6 +36,7 @@ excerpt_separator: "\n\n\n"
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : https://chuan92.com
+baidu_analyze: 576d855003bbb0058d8a6343b24534fe
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
