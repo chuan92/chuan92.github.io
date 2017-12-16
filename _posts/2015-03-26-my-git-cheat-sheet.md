@@ -16,6 +16,7 @@ tags: []
 + `git checkout -- <file>` 用暂存区指定的文件替换工作区的文件,会清除工作区中未添加到暂存区的改动
 + `git checkout HEAD <file>` 用HEAD指向的master分支中的全部或者部分文件替换暂存区和以及工作区中的文件。这个命令是极具危险性的，因为不但会清除工作区中未提交的改动，也会清除暂存区中未提交的改动
 + `git add -u` 将已经跟踪的文件添加到暂存区
++ `git commit --amend` 新的改动commit后会被加在更新上次的commit记录
 
 
 <!--![](https://7xidap.com1.z0.glb.clouddn.com/git-stage.png)-->
@@ -28,5 +29,5 @@ tags: []
 + `git checkout -b [分支名] [远程名]/[分支名]` 跟踪远程分支
 + `git push [远程名] :[分支名]` 删除远程分支
 + `git push [远程名] [本地分支名](:[远程分支名])` 推送本地分支
-
++ `git merge branchname` Merge branch-name into the current branch
 
